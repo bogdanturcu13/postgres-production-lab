@@ -1,0 +1,16 @@
+# Discos e imágenes de VMs
+*.vhdx
+*.vhd
+*.iso
+
+# Secretos y claves: nunca al repo
+.env
+*.pem
+*.key
+id_*
+!id_*.pub
+secrets/
+
+# Transcripciones de consola en bruto
+logs/
+*.log
