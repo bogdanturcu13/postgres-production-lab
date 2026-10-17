@@ -8,3 +8,6 @@
 | pg3   | 10.10.10.13 | 2    | 3 GB | 20 GB    | 20 GB       | PostgreSQL 16 + Patroni + etcd |
 
 Red: 10.10.10.0/24 · Puerta de enlace: 10.10.10.1 (host Windows, NAT)
+
+Sistema operativo: Rocky Linux 9.8 (Minimal) · Hipervisor: Hyper-V, VMs de generación 2
+Discos: E:\HyperV\VHD\<vm>.vhdx (sistema) y <vm>-datos.vhdx (datos)
