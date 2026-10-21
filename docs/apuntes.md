@@ -25,8 +25,8 @@ El trabajo está dividido en 10 fases (de la 0 a la 9). Cada una tiene un ejerci
 ### BLOQUE 0: Repositorio y equipo
 
 - Equipo: i5-11400H (6 núcleos / 12 hilos), 32 GB de RAM, Windows 11 Pro, disco E: con 484 GB libres.
-- Hipervisor elegido: Hyper-V (ver [ADR 0001](decisiones/0001-hipervisor-hyper-v.md)).
-- Sistema operativo de las VMs: Rocky Linux 9 (ver [ADR 0002](decisiones/0002-sistema-operativo-rocky-linux-9.md)).
+- Hipervisor elegido: Hyper-V (justificación en el apéndice B de la memoria).
+- Sistema operativo de las VMs: Rocky Linux 9 (justificación en el apéndice B de la memoria).
 
 **Problema:** al hacer `git push` daba error 403 porque Git se autenticaba con la cuenta de la universidad (credenciales guardadas en el Administrador de credenciales de Windows).
 

@@ -14,3 +14,11 @@ secrets/
 # Transcripciones de consola en bruto
 logs/
 *.log
+
+# Ficheros auxiliares de LaTeX
+*.aux
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
